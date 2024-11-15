@@ -5,3 +5,4 @@ import Magang from "./Magang.js";
 import db from "../utils/db.js";
 
 db.sync ({alter: true})
+
