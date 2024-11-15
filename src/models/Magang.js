@@ -1,3 +1,4 @@
+//magang
 import db from "../utils/db.js";
 import { Sequelize } from "sequelize";
 import Pengguna from "./Pengguna.js";
@@ -76,3 +77,4 @@ Magang.belongsTo(Pengguna, {
 });
 
 export default Magang;
+
